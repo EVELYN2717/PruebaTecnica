@@ -1,0 +1,32 @@
+<div mat-dialog-content>
+    <div class="ctn-cardHeader">
+        <mat-tab-group>
+            <mat-tab label=""></mat-tab>
+            <mat-tab label="Roles"></mat-tab>
+        </mat-tab-group>
+        <mat-card>
+          <div class="ctn-fields">
+            <mat-form-field class="dates">
+              <mat-label>nombres</mat-label>
+              <input matInput value="">
+            </mat-form-field>
+            <mat-form-field class="dates">
+              <mat-label>apellidos</mat-label>
+              <input matInput value="">
+            </mat-form-field>
+            <mat-form-field class="dates">
+              <mat-label>email</mat-label>
+              <input matInput value="">
+            </mat-form-field>
+            <mat-form-field class="dates">
+              <mat-label>usuario</mat-label>
+              <input matInput value="">
+            </mat-form-field>
+          </div>
+        </mat-card>
+      </div>
+</div>
+<div mat-dialog-actions class="ctn-buttons">
+  <button mat-raised-button color="primary" (click)="onNoClick()">Guardar</button>
+  <button mat-raised-button color="primary" [mat-dialog-close]="data.nombres" cdkFocusInitial>Cerrar</button>
+</div>

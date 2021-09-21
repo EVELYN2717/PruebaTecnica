@@ -1,0 +1,43 @@
+.ctn-toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+    >label{
+        margin: 10px;
+    }
+  }
+  .ctn-cardHeader {
+    margin: 80px 20px 20px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    >mat-card{
+        height: 20vh;
+    }
+    .ctn-fields {
+        display: flex;
+        .dates {
+            width: 20%;
+            margin: 20px;
+          }
+    }
+    .buttons {
+        display: flex;
+        height: 10vh;
+        margin-top: 50px;
+    }
+  } 
+.ctn-body {
+    table {
+        width: 90%;
+        margin:auto;
+    }
+}
+  
+ 
